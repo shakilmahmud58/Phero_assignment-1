@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+
 }
 h1{
     font-size: 40px;
@@ -13,10 +15,10 @@ h1{
      padding-left: 50px;
      padding-right: 30px;
  }
- .flex{
-     padding-top: 70px;
-     margin-left: 10%;
- }
+.flex{
+    padding-top: 70px;
+    margin-left: 10%;
+}
  .image1{
      width:80%;
  }
@@ -30,12 +32,13 @@ h1{
      color:orange;
  }
  .link{
-     background-image: linear-gradient(orange,red);
+     background-image: linear-gradient(orange, red);
      text-decoration: none;
      color:white;
+     font-weight: bold;
      border-radius: 30px;
      padding:10px 40px;
-     box-shadow: 5px 5px 10px red;
+     box-shadow: 2px 4px 10px tomato;
  }
 .about_me{
     background-image: url("Images/7.png");
@@ -45,10 +48,10 @@ h1{
 }
 .about_me h2{
     color:gray;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .about_me p{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .image2{
     margin-left: 200px;
@@ -75,22 +78,49 @@ h1{
     width: 25%;
     margin: 10px;
     border: 20px solid white;
-    box-shadow: 5px 10px 30px gray;
+    box-shadow: 2px 5px 10px gray;
     border-radius: 20px;
 }
 .recipe-item img{
     width: 100%;
+    height: 65%;
 }
 .recipe-item h3{
     font-weight: bold;
 }
-.extra_item{
-    height: 100px;
+.extra_item_flex{
+    display: flex;
     box-shadow: 5px 10px 30px gray;
-    border-radius: 20px;
-    width: 85%;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 40px;
+    padding:20px;
+}
+.top{
+    text-align: center;
+}
+.flex_item{
+    padding-left: 15px;
+    padding-right: 15px;
+    width:30%;
+    margin: 15px;
+    box-shadow: 5px 10px 5px 5px gray;
+    border-radius: 10px;
+}
+.flex_image{
+    display: flex;
+}
+.flex_image img{
+    width: 100px;
+    height: 80px;
+    margin-top: 22px;
+    margin-left:60px;
+}
+.name{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
 }
 footer{
     height: 150px;
